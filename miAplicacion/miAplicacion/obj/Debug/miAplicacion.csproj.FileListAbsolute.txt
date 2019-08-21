@@ -1,0 +1,7 @@
+D:\Flor\miAplicacion\miAplicacion\bin\Debug\miAplicacion.exe.config
+D:\Flor\miAplicacion\miAplicacion\bin\Debug\miAplicacion.exe
+D:\Flor\miAplicacion\miAplicacion\bin\Debug\miAplicacion.pdb
+D:\Flor\miAplicacion\miAplicacion\obj\Debug\miAplicacion.csprojAssemblyReference.cache
+D:\Flor\miAplicacion\miAplicacion\obj\Debug\miAplicacion.csproj.CoreCompileInputs.cache
+D:\Flor\miAplicacion\miAplicacion\obj\Debug\miAplicacion.exe
+D:\Flor\miAplicacion\miAplicacion\obj\Debug\miAplicacion.pdb

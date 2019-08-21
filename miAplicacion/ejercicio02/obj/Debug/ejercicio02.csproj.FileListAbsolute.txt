@@ -1,0 +1,7 @@
+D:\Flor\miAplicacion\ejercicio02\obj\Debug\ejercicio02.csprojAssemblyReference.cache
+D:\Flor\miAplicacion\ejercicio02\obj\Debug\ejercicio02.csproj.CoreCompileInputs.cache
+D:\Flor\miAplicacion\ejercicio02\bin\Debug\ejercicio02.exe.config
+D:\Flor\miAplicacion\ejercicio02\bin\Debug\ejercicio02.exe
+D:\Flor\miAplicacion\ejercicio02\bin\Debug\ejercicio02.pdb
+D:\Flor\miAplicacion\ejercicio02\obj\Debug\ejercicio02.exe
+D:\Flor\miAplicacion\ejercicio02\obj\Debug\ejercicio02.pdb

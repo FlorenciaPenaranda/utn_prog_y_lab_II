@@ -1,0 +1,6 @@
+D:\Flor\miAplicacion\ejercicio01\bin\Debug\ejercicio01.exe.config
+D:\Flor\miAplicacion\ejercicio01\bin\Debug\ejercicio01.exe
+D:\Flor\miAplicacion\ejercicio01\bin\Debug\ejercicio01.pdb
+D:\Flor\miAplicacion\ejercicio01\obj\Debug\ejercicio01.csproj.CoreCompileInputs.cache
+D:\Flor\miAplicacion\ejercicio01\obj\Debug\ejercicio01.exe
+D:\Flor\miAplicacion\ejercicio01\obj\Debug\ejercicio01.pdb

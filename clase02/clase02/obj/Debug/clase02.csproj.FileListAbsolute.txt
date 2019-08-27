@@ -1,0 +1,7 @@
+D:\Flor\clase02\clase02\bin\Debug\clase02.exe.config
+D:\Flor\clase02\clase02\bin\Debug\clase02.exe
+D:\Flor\clase02\clase02\bin\Debug\clase02.pdb
+D:\Flor\clase02\clase02\obj\Debug\clase02.csprojAssemblyReference.cache
+D:\Flor\clase02\clase02\obj\Debug\clase02.csproj.CoreCompileInputs.cache
+D:\Flor\clase02\clase02\obj\Debug\clase02.exe
+D:\Flor\clase02\clase02\obj\Debug\clase02.pdb

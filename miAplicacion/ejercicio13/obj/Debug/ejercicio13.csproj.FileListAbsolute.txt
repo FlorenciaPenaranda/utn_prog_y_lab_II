@@ -1,0 +1,7 @@
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio13\bin\Debug\ejercicio13.exe.config
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio13\bin\Debug\ejercicio13.exe
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio13\bin\Debug\ejercicio13.pdb
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio13\obj\Debug\ejercicio13.csprojAssemblyReference.cache
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio13\obj\Debug\ejercicio13.csproj.CoreCompileInputs.cache
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio13\obj\Debug\ejercicio13.exe
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio13\obj\Debug\ejercicio13.pdb

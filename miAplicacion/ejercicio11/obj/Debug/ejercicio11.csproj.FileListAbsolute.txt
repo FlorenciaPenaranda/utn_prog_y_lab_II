@@ -1,0 +1,6 @@
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio11\bin\Debug\ejercicio11.exe.config
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio11\bin\Debug\ejercicio11.exe
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio11\bin\Debug\ejercicio11.pdb
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio11\obj\Debug\ejercicio11.csproj.CoreCompileInputs.cache
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio11\obj\Debug\ejercicio11.exe
+D:\Flor\utn_prog_y_lab_II\miAplicacion\ejercicio11\obj\Debug\ejercicio11.pdb

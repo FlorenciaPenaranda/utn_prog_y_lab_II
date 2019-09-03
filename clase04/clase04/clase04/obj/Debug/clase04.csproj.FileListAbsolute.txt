@@ -1,0 +1,7 @@
+D:\Flor\utn_prog_y_lab_II\clase04\clase04\clase04\bin\Debug\clase04.exe.config
+D:\Flor\utn_prog_y_lab_II\clase04\clase04\clase04\bin\Debug\clase04.exe
+D:\Flor\utn_prog_y_lab_II\clase04\clase04\clase04\bin\Debug\clase04.pdb
+D:\Flor\utn_prog_y_lab_II\clase04\clase04\clase04\obj\Debug\clase04.csprojAssemblyReference.cache
+D:\Flor\utn_prog_y_lab_II\clase04\clase04\clase04\obj\Debug\clase04.csproj.CoreCompileInputs.cache
+D:\Flor\utn_prog_y_lab_II\clase04\clase04\clase04\obj\Debug\clase04.exe
+D:\Flor\utn_prog_y_lab_II\clase04\clase04\clase04\obj\Debug\clase04.pdb

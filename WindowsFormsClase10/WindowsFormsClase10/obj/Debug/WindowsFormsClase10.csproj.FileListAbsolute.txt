@@ -1,0 +1,10 @@
+D:\Flor\WindowsFormsClase10\WindowsFormsClase10\bin\Debug\WindowsFormsClase10.exe.config
+D:\Flor\WindowsFormsClase10\WindowsFormsClase10\bin\Debug\WindowsFormsClase10.exe
+D:\Flor\WindowsFormsClase10\WindowsFormsClase10\bin\Debug\WindowsFormsClase10.pdb
+D:\Flor\WindowsFormsClase10\WindowsFormsClase10\obj\Debug\WindowsFormsClase10.csprojAssemblyReference.cache
+D:\Flor\WindowsFormsClase10\WindowsFormsClase10\obj\Debug\WindowsFormsClase10.Form1.resources
+D:\Flor\WindowsFormsClase10\WindowsFormsClase10\obj\Debug\WindowsFormsClase10.Properties.Resources.resources
+D:\Flor\WindowsFormsClase10\WindowsFormsClase10\obj\Debug\WindowsFormsClase10.csproj.GenerateResource.cache
+D:\Flor\WindowsFormsClase10\WindowsFormsClase10\obj\Debug\WindowsFormsClase10.csproj.CoreCompileInputs.cache
+D:\Flor\WindowsFormsClase10\WindowsFormsClase10\obj\Debug\WindowsFormsClase10.exe
+D:\Flor\WindowsFormsClase10\WindowsFormsClase10\obj\Debug\WindowsFormsClase10.pdb

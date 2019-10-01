@@ -17,7 +17,7 @@ namespace Entidades
             Jefe
         }
 
-        public Empleado(string nombre, int cuil, float sueldo) 
+        public Empleado(string nombre, double cuil, float sueldo) 
             : base(nombre, cuil)
         {
             this.Sueldo = sueldo;

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textNombre = new System.Windows.Forms.TextBox();
+            this.textCuil = new System.Windows.Forms.TextBox();
+            this.textSueldo = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblCuil = new System.Windows.Forms.Label();
@@ -51,29 +51,29 @@
             "Jefe"});
             this.comboBox1.Location = new System.Drawing.Point(43, 32);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(195, 21);
             this.comboBox1.TabIndex = 0;
             // 
-            // textBox1
+            // textNombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(43, 84);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.textNombre.Location = new System.Drawing.Point(43, 84);
+            this.textNombre.Name = "textNombre";
+            this.textNombre.Size = new System.Drawing.Size(100, 20);
+            this.textNombre.TabIndex = 1;
             // 
-            // textBox2
+            // textCuil
             // 
-            this.textBox2.Location = new System.Drawing.Point(43, 138);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 2;
+            this.textCuil.Location = new System.Drawing.Point(43, 138);
+            this.textCuil.Name = "textCuil";
+            this.textCuil.Size = new System.Drawing.Size(100, 20);
+            this.textCuil.TabIndex = 2;
             // 
-            // textBox3
+            // textSueldo
             // 
-            this.textBox3.Location = new System.Drawing.Point(43, 190);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 3;
+            this.textSueldo.Location = new System.Drawing.Point(43, 190);
+            this.textSueldo.Name = "textSueldo";
+            this.textSueldo.Size = new System.Drawing.Size(100, 20);
+            this.textSueldo.TabIndex = 3;
             // 
             // textBox4
             // 
@@ -120,18 +120,19 @@
             // 
             // BtnAgregar
             // 
-            this.BtnAgregar.Location = new System.Drawing.Point(63, 299);
+            this.BtnAgregar.Location = new System.Drawing.Point(43, 299);
             this.BtnAgregar.Name = "BtnAgregar";
-            this.BtnAgregar.Size = new System.Drawing.Size(101, 33);
+            this.BtnAgregar.Size = new System.Drawing.Size(100, 24);
             this.BtnAgregar.TabIndex = 9;
             this.BtnAgregar.Text = "Agregar";
             this.BtnAgregar.UseVisualStyleBackColor = true;
+            this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
             // 
             // BtnMostrar
             // 
             this.BtnMostrar.Location = new System.Drawing.Point(244, 299);
             this.BtnMostrar.Name = "BtnMostrar";
-            this.BtnMostrar.Size = new System.Drawing.Size(101, 33);
+            this.BtnMostrar.Size = new System.Drawing.Size(101, 24);
             this.BtnMostrar.TabIndex = 10;
             this.BtnMostrar.Text = "Mostrar";
             this.BtnMostrar.UseVisualStyleBackColor = true;
@@ -140,7 +141,7 @@
             // 
             this.BtnAumentar.Location = new System.Drawing.Point(244, 32);
             this.BtnAumentar.Name = "BtnAumentar";
-            this.BtnAumentar.Size = new System.Drawing.Size(101, 37);
+            this.BtnAumentar.Size = new System.Drawing.Size(101, 21);
             this.BtnAumentar.TabIndex = 11;
             this.BtnAumentar.Text = "Aumentar";
             this.BtnAumentar.UseVisualStyleBackColor = true;
@@ -158,9 +159,9 @@
             this.Controls.Add(this.lblCuil);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textSueldo);
+            this.Controls.Add(this.textCuil);
+            this.Controls.Add(this.textNombre);
             this.Controls.Add(this.comboBox1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -172,9 +173,9 @@
         #endregion
 
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textNombre;
+        private System.Windows.Forms.TextBox textCuil;
+        private System.Windows.Forms.TextBox textSueldo;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblCuil;

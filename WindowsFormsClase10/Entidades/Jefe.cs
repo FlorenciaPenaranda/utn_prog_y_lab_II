@@ -10,7 +10,7 @@ namespace Entidades
     {
         public int Bono;
 
-        public Jefe(string nombre, int cuil, float sueldo, int Bono)
+        public Jefe(string nombre, double cuil, float sueldo, int Bono)
             : base(nombre, cuil, sueldo)
         {
             this.Bono = Bono;

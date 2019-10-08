@@ -7,12 +7,12 @@ using Entidades;
 
 namespace Entidades
 {
-    class Equipo
+    public class Equipo
     {
         private string nombre;
         private DirectoTecnico directorTecnico;
         private List<Jugador> jugadores;
-        private int cantidadMaxJugadores = 6;
+        private const int cantidadMaxJugadores = 6;
 
         public DirectoTecnico DirectorTecnico
         {
@@ -66,9 +66,9 @@ namespace Entidades
 
         public static bool operator ==(Equipo e, Jugador j)
         {
-            foreach(Jugador jugador in e.jugadores)
+            foreach (Jugador jugador in e.jugadores)
             {
-                return true;  
+                return true;
             }
             return false;
         }
@@ -80,12 +80,12 @@ namespace Entidades
 
         public static bool operator +(Equipo e, Jugador j)
         {
-            if (e != j && e.cantidadMaxJugadores > e.jugadores.Count && j.ValidarAptitud()) 
+            if (e != j && cantidadMaxJugadores > e.jugadores.Count && j.ValidarAptitud())
             {
                 e.jugadores.Add(j);
                 return true;
             }
-            return false ;
+            return false;
         }
 
         public static bool ValidarEquipo(Equipo e) // metodo de clase estatico 
@@ -94,29 +94,31 @@ namespace Entidades
             int cantDefensor = 0;
             int cantCentral = 0;
             int cantDelantero = 0;
-            //if(e.directorTecnico == null &&
+            
             foreach (Jugador jugadores in e.jugadores)
             {
-                switch(jugadores.Posicion)
+                switch (jugadores.Posicion)
                 {
                     case Posicion.Arquero:
-                        cantArquero ++;
+                        cantArquero++;
                         break;
                     case Posicion.Defensor:
-                        cantDefensor ++;
+                        cantDefensor++;
                         break;
                     case Posicion.Central:
-                        cantCentral ++;
+                        cantCentral++;
                         break;
                     case Posicion.Delantero:
-                        cantDelantero ++;
+                        cantDelantero++;
                         break;
-                } 
-                
+                }
+
             }
-            if(e.directorTecnico == null && cantArquero == 0 && cantDefensor > 0 && cantCentral > 0 && cantDelantero > 0 && jugadores ) 
-
-
+            if (e.jugadores.Count == cantidadMaxJugadores && cantArquero == 1 && (cantDefensor > 0 || cantCentral > 0 || cantDelantero > 0))
+                {
+                return true;
+                }
+            return false;
         }
 
 

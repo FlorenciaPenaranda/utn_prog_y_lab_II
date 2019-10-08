@@ -1,0 +1,18 @@
+D:\VisualStudio\Federico Dávila\Entidades\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+D:\VisualStudio\Federico Dávila\Entidades\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+D:\VisualStudio\Federico Dávila\Entidades\ClassLibrary1\obj\Debug\Entities.csprojAssemblyReference.cache
+D:\VisualStudio\Federico Dávila\Entidades\ClassLibrary1\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Federico Dávila\Entidades\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+D:\VisualStudio\Federico Dávila\Entidades\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+D:\HDillon\Clase102019\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+D:\HDillon\Clase102019\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+D:\HDillon\Clase102019\ClassLibrary1\obj\Debug\Entities.csprojAssemblyReference.cache
+D:\HDillon\Clase102019\ClassLibrary1\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\HDillon\Clase102019\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+D:\HDillon\Clase102019\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\ClassLibrary1\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\ClassLibrary1\obj\Debug\Entities.csproj.CoreCompileInputs.cache

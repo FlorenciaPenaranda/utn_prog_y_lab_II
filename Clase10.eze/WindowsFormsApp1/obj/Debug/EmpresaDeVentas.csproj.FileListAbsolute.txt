@@ -1,0 +1,42 @@
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\bin\Debug\ClassLibrary1.dll
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\bin\Debug\ClassLibrary1.pdb
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\obj\Debug\EmpresaDeVentas.csprojAssemblyReference.cache
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmAdminEmpleados.resources
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\obj\Debug\EmpresaDeVentas.csproj.GenerateResource.cache
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\obj\Debug\EmpresaDeVentas.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\obj\Debug\EmpresaDeVentas.csproj.CopyComplete
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\VisualStudio\Federico Dávila\Entidades\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmAumentos.resources
+D:\HDillon\Clase102019\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\HDillon\Clase102019\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\HDillon\Clase102019\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\HDillon\Clase102019\WindowsFormsApp1\bin\Debug\ClassLibrary1.dll
+D:\HDillon\Clase102019\WindowsFormsApp1\bin\Debug\ClassLibrary1.pdb
+D:\HDillon\Clase102019\WindowsFormsApp1\obj\Debug\EmpresaDeVentas.csprojAssemblyReference.cache
+D:\HDillon\Clase102019\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmAdminEmpleados.resources
+D:\HDillon\Clase102019\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmAumentos.resources
+D:\HDillon\Clase102019\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\HDillon\Clase102019\WindowsFormsApp1\obj\Debug\EmpresaDeVentas.csproj.GenerateResource.cache
+D:\HDillon\Clase102019\WindowsFormsApp1\obj\Debug\EmpresaDeVentas.csproj.CoreCompileInputs.cache
+D:\HDillon\Clase102019\WindowsFormsApp1\obj\Debug\EmpresaDeVentas.csproj.CopyComplete
+D:\HDillon\Clase102019\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\HDillon\Clase102019\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\bin\Debug\ClassLibrary1.dll
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\obj\Debug\EmpresaDeVentas.csprojAssemblyReference.cache
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmAdminEmpleados.resources
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmAumentos.resources
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\obj\Debug\EmpresaDeVentas.csproj.GenerateResource.cache
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\obj\Debug\EmpresaDeVentas.csproj.CoreCompileInputs.cache
+C:\Users\Franor SRL\Desktop\utn_prog_y_lab_II\Clase102019\WindowsFormsApp1\obj\Debug\EmpresaDeVentas.csproj.CopyComplete

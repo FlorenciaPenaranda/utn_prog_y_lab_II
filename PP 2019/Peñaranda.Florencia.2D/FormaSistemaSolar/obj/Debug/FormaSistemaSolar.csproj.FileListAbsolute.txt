@@ -1,0 +1,12 @@
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\FormaSistemaSolar.exe.config
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\FormaSistemaSolar.exe
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\FormaSistemaSolar.pdb
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\Entidades.dll
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\Entidades.pdb
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csprojAssemblyReference.cache
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.FormSistemaSolar.resources
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.Properties.Resources.resources
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csproj.GenerateResource.cache
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csproj.CopyComplete
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.exe
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.pdb

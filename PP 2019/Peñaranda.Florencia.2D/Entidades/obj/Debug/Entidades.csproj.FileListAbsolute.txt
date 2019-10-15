@@ -1,0 +1,5 @@
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\Entidades\bin\Debug\Entidades.dll
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\Entidades\bin\Debug\Entidades.pdb
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.dll
+V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.pdb

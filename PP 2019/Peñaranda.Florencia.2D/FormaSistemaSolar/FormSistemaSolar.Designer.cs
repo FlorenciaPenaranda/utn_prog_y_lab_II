@@ -190,14 +190,10 @@
             // comboBoxTipoPlaneta
             // 
             this.comboBoxTipoPlaneta.FormattingEnabled = true;
-            this.comboBoxTipoPlaneta.Items.AddRange(new object[] {
-            "Rocoso",
-            "Gaseoso"});
             this.comboBoxTipoPlaneta.Location = new System.Drawing.Point(162, 142);
             this.comboBoxTipoPlaneta.Name = "comboBoxTipoPlaneta";
             this.comboBoxTipoPlaneta.Size = new System.Drawing.Size(130, 21);
             this.comboBoxTipoPlaneta.TabIndex = 16;
-            
             // 
             // comboBoxPlaneta
             // 
@@ -285,6 +281,7 @@
             this.Controls.Add(this.lblPlanetaNombre);
             this.Name = "FormSistemaSolar";
             this.Text = "Peñaranda Florencia 2D";
+            this.Load += new System.EventHandler(this.FormSistemaSolar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownRotacionPlaneta)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownLunas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownOrbitaSatelite)).EndInit();

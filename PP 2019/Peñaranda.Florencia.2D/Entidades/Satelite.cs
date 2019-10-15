@@ -21,7 +21,7 @@ namespace Entidades
 
         public override string Orbitar()
         {
-            return String.Format("$Orbitar el satelite: {base.nombre}");
+            return String.Format($"Orbitar el satelite: {this.Nombre}");
         }
 
         public override string ToString()

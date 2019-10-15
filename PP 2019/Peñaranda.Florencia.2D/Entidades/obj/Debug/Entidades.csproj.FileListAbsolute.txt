@@ -3,3 +3,9 @@ V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\Entidades\bin\Debug\Entidades
 V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\Entidades\bin\Debug\Entidades.pdb
 V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.dll
 V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.pdb
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\Entidades\bin\Debug\Entidades.dll
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\Entidades\bin\Debug\Entidades.pdb
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.dll
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.pdb

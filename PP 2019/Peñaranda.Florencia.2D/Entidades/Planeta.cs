@@ -24,7 +24,7 @@ namespace Entidades
         }
 
         public Planeta(int duracionOrbita, int duracionRotacion, string nombre, int cantidadSatelites, Tipo tipo)
-            : base(duracionOrbita, duracionRotacion, nombre)
+            : this(duracionOrbita, duracionRotacion, nombre)
         {
             this.cantidadSatelites = cantidadSatelites;
             this.tipo = tipo;
@@ -76,7 +76,7 @@ namespace Entidades
             return String.Format($"Orbita el planeta: {base.nombre}");
         }
 
-        public override string Rotar()
+        public new string Rotar()
         {
             return String.Format($"Rotando el planeta {base.nombre}");
         }
@@ -87,6 +87,10 @@ namespace Entidades
             sb.AppendLine(base.Mostrar());
             sb.AppendLine("Cantidad de satelites: " + this.cantidadSatelites);
             sb.AppendLine("Tipo: " + this.tipo);
+            foreach(Satelite item in satelites)
+            {
+                sb.AppendLine(item.ToString());
+            }
             return sb.ToString();
         }
     }

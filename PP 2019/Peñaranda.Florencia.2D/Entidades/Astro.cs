@@ -22,7 +22,7 @@ namespace Entidades
         protected string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Nombr: " + this.nombre);
+            sb.AppendLine("Nombre: " + this.nombre);
             sb.AppendLine("Duracion de orbita: " + this.duracionOrbita);
             sb.AppendLine("Duracion de rotacion: " + this.duracionRotacion);
             return sb.ToString();
@@ -35,7 +35,7 @@ namespace Entidades
           return String.Format($"Rotando. Tiempo estimado: {this.duracionRotacion}");
         }
 
-        public static explicit operator String(Astro a)
+        public static explicit operator string(Astro a)
         {
             return a.nombre.ToString();
         }

@@ -10,3 +10,16 @@ V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\F
 V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csproj.CopyComplete
 V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.exe
 V:\Desarrollo\Flor\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.pdb
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\FormaSistemaSolar.exe.config
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\FormaSistemaSolar.exe
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\FormaSistemaSolar.pdb
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\Entidades.dll
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\Entidades.pdb
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csprojAssemblyReference.cache
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.FormSistemaSolar.resources
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.Properties.Resources.resources
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csproj.GenerateResource.cache
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csproj.CoreCompileInputs.cache
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csproj.CopyComplete
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.exe
+D:\Flor\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.pdb

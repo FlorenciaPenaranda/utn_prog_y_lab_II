@@ -32,7 +32,7 @@ namespace Entidades
 
         public virtual string Rotar()
         {
-          return String.Format($"Rotando. Tiempo estimado: {this.duracionRotacion}");
+          return String.Format($"\nRotando. Tiempo estimado: {this.duracionRotacion}");
         }
 
         public static explicit operator string(Astro a)

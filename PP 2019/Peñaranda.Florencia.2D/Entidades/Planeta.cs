@@ -84,6 +84,7 @@ namespace Entidades
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
+            sb.AppendLine("\nPLANETA");
             sb.AppendLine(base.Mostrar());
             sb.AppendLine("Cantidad de satelites: " + this.cantidadSatelites);
             sb.AppendLine("Tipo: " + this.tipo);

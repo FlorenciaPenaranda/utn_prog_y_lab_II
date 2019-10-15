@@ -26,7 +26,10 @@ namespace Entidades
 
         public override string ToString()
         {
-            return base.Mostrar();
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("\nSATELITE");
+            sb.AppendLine(base.Mostrar());
+            return sb.ToString();
         }
     }
 }

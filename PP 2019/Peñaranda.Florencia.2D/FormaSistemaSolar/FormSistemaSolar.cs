@@ -37,7 +37,6 @@ namespace FormaSistemaSolar
                 planetas.Add(p);
                 comboBoxPlaneta.Items.Add(txtPlanetaNombre.Text);
                 MessageBox.Show("Planeta cargado correctamente.", "OK", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
             }
             else
             {

@@ -9,6 +9,7 @@ namespace Entidades
     public class SistemaSolar
     {
         private List<Planeta> planetas;
+
         public List<Planeta> Planetas
         {
             get { return this.planetas; }
@@ -22,9 +23,13 @@ namespace Entidades
         public string MostrarInformacionAstros()
         {
             StringBuilder sb = new StringBuilder();
-            foreach (Planeta item in planetas)
+            foreach (Planeta p in planetas)
             {
-                sb.AppendLine(item.ToString());
+                sb.AppendLine(p.ToString());
+                foreach (Satelite s in p.Satelites)
+                {
+                    sb.AppendLine(s.ToString());
+                }
             }
             return sb.ToString();
         }

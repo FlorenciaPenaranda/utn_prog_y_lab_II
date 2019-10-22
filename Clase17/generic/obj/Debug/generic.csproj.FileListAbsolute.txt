@@ -1,0 +1,5 @@
+D:\VisualStudio\Flor\Clase17\generic\obj\Debug\generic.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Flor\Clase17\generic\bin\Debug\generic.dll
+D:\VisualStudio\Flor\Clase17\generic\bin\Debug\generic.pdb
+D:\VisualStudio\Flor\Clase17\generic\obj\Debug\generic.dll
+D:\VisualStudio\Flor\Clase17\generic\obj\Debug\generic.pdb

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    abstract class Astro
+    public abstract class Astro
     {
         private int duracionOrbita;
         private int duracionRotacion;

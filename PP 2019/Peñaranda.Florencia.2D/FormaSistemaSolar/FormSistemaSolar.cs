@@ -14,7 +14,6 @@ namespace FormaSistemaSolar
     public partial class FormSistemaSolar : Form
     {
         static List<Astro> planetas;
-
         static FormSistemaSolar()
         {
             planetas = new List<Astro>();
@@ -25,6 +24,11 @@ namespace FormaSistemaSolar
 
         }
 
+        /// <summary>
+        /// Agrega un planeta a la lista
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonAgregarPlaneta_Click(object sender, EventArgs e)
         {
             if (txtPlanetaNombre.Text != String.Empty &&
@@ -49,6 +53,11 @@ namespace FormaSistemaSolar
             comboBoxTipoPlaneta.Text = String.Empty;
         }
 
+        /// <summary>
+        /// Agrega un satelite a un planeta
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonAgregarSatelite_Click(object sender, EventArgs e)
         {
             if (comboBoxPlaneta.Text != String.Empty &&
@@ -76,14 +85,25 @@ namespace FormaSistemaSolar
             numericUpDownRotacionSatelite.Value = 0;
         }
 
+        /// <summary>
+        /// Muestra todos los datos cargados
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonMostrarInfo_Click(object sender, EventArgs e)
         {
+            richTextBox1.Clear();
             foreach (Astro item in planetas)
             {
                 richTextBox1.AppendText(item.ToString());
             }
         }
 
+        /// <summary>
+        /// Mueve los astros
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonMoverAstros_Click(object sender, EventArgs e)
         {
             foreach (Planeta p in planetas)
@@ -103,10 +123,27 @@ namespace FormaSistemaSolar
             }            
         }
 
+        /// <summary>
+        /// Carga los enum de Tipo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FormSistemaSolar_Load(object sender, EventArgs e)
         {
             comboBoxTipoPlaneta.Items.Add(Tipo.Gaseoso);
             comboBoxTipoPlaneta.Items.Add(Tipo.Rocoso);
+        }
+
+        /// <summary>
+        /// Agrega un nuevo formulario
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void buttonAgregar_Click(object sender, EventArgs e)
+        {
+            //this.Hide;
+            SistemaSolar ss = new SistemaSolar();
+            ss.ShowDialog();
         }
     }
 }

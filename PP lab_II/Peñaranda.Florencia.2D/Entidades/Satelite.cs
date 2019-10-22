@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Satelite : Astro
+    public class Satelite : Astro
     {
         public String Nombre
         {

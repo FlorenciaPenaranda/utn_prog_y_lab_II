@@ -35,3 +35,17 @@ C:\Users\fpenaranda\Desktop\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\Fo
 C:\Users\fpenaranda\Desktop\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csproj.CopyComplete
 C:\Users\fpenaranda\Desktop\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.exe
 C:\Users\fpenaranda\Desktop\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.pdb
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\FormaSistemaSolar.exe.config
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\FormaSistemaSolar.exe
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\FormaSistemaSolar.pdb
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\Entidades.dll
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\bin\Debug\Entidades.pdb
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csprojAssemblyReference.cache
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.FormEstrella.resources
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.FormSistemaSolar.resources
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.Properties.Resources.resources
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csproj.GenerateResource.cache
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csproj.CoreCompileInputs.cache
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.csproj.CopyComplete
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.exe
+D:\utn_prog_y_lab_II\PP 2019\Peñaranda.Florencia.2D\FormaSistemaSolar\obj\Debug\FormaSistemaSolar.pdb

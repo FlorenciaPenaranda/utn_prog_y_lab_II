@@ -13,7 +13,43 @@ namespace Entidades
     {
         private int duracionOrbita;
         private int duracionRotacion;
-        protected string nombre;
+        private string nombre;
+
+        public string Nombre
+        {
+            get
+            {
+                return this.nombre;
+            }
+            set
+            {
+                this.nombre = value.ToString();
+            }
+        }
+
+        public int DuracionOrbita
+        {
+            get
+            {
+                return this.duracionOrbita;
+            }
+            set
+            {
+                this.duracionOrbita = value;
+            }
+        }
+
+        public int DuracionRotacion
+        {
+            get
+            {
+                return this.duracionRotacion;
+            }
+            set
+            {
+                this.duracionRotacion = value;
+            }
+        }
 
         /// <summary>
         /// Constructor
@@ -53,7 +89,7 @@ namespace Entidades
         /// <returns></returns>
         public virtual string Rotar()
         {
-          return String.Format($"\nRotando. Tiempo estimado: {this.duracionRotacion}");
+            return String.Format($"\nRotando. Tiempo estimado: {this.duracionRotacion}");
         }
 
         /// <summary>

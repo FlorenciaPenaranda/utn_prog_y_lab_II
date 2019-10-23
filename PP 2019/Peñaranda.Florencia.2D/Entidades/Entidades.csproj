@@ -40,7 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Astro.cs" />
+    <Compile Include="Clase.cs" />
+    <Compile Include="Estrella.cs" />
     <Compile Include="Planeta.cs" />
+    <Compile Include="PlanetaEnano.cs" />
     <Compile Include="Satelite.cs" />
     <Compile Include="SistemaSolar.cs" />
     <Compile Include="Tipo.cs" />

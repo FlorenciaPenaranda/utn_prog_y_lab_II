@@ -16,7 +16,7 @@ namespace Entidades
         /// </summary>
         public string Nombre
         {
-            get { return base.nombre; }
+            get { return base.Nombre; }
         }
 
         /// <summary>

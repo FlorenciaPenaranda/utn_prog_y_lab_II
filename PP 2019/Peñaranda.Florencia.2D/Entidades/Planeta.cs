@@ -74,7 +74,7 @@ namespace Entidades
         /// <returns></returns>
         public static bool operator ==(Planeta p1, Planeta p2)
         {
-            if (p1.nombre == p2.nombre)
+            if (p1.Nombre == p2.Nombre)
             {
                 return true;
             }
@@ -127,16 +127,16 @@ namespace Entidades
         /// <returns></returns>
         public override string Orbitar()
         {
-            return String.Format($"Orbita el planeta: {base.nombre}");
+            return String.Format($"Orbita el planeta: {base.Nombre}");
         }
 
         /// <summary>
         ///  Método que no sobreescribe el base y retorna un mensaje.
         /// </summary>
         /// <returns></returns>
-        public new string Rotar()
+        public override string Rotar()
         {
-            return String.Format($"Rotando el planeta {base.nombre}");
+            return String.Format($"Rotando el planeta {base.Nombre}");
         }
 
         /// <summary>

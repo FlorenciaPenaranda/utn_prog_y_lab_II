@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Centralita
+namespace Entidades
 {
     public enum FranjaHoraria 
     {

@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Centralita
+namespace Entidades
 {
     public class Local : Llamada
     {
@@ -29,7 +29,8 @@ namespace Centralita
         {
             return base.duracion * this.costo;
         }
-        protected new string Mostrar()
+
+        protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.Mostrar());

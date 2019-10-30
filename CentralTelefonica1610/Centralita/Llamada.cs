@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Centralita
+namespace Entidades
 {
     public abstract class Llamada
     {
@@ -57,8 +57,8 @@ namespace Centralita
             return !(l1 == l2);
         }
 
-        public int OrdenarPorDuracion(Llamada l1, Llamada l2)
-        {
+        public int OrdenarPorDuracion(Llamada l1, Llamada l2) //void
+        {                                                       
             if (l1.duracion < l2.duracion)
             {
                 return 1;

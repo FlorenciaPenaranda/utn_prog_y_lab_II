@@ -20,8 +20,6 @@ namespace ClasesAbstractas
             Argentino,
             Extranjero
         }
-
-
         public string Nombre
         {
             get
@@ -30,10 +28,12 @@ namespace ClasesAbstractas
             }
             set
             {
-                this.nombre = value;
+                if (ValidarNombreApellido(value) != null)
+                {
+                    this.nombre = value;
+                }
             }
         }
-
         public string Apellido
         {
             get
@@ -42,10 +42,12 @@ namespace ClasesAbstractas
             }
             set
             {
-                this.apellido = value;
+                if (ValidarNombreApellido(value) != null)
+                {
+                    this.apellido = value;
+                }
             }
         }
-
         public int Dni
         {
             get
@@ -54,10 +56,9 @@ namespace ClasesAbstractas
             }
             set
             {
-                this.dni = value;
+                this.dni = ValidarDni(this.nacionalidad, value);
             }
         }
-
         public ENacionalidad Nacionalidad
         {
             get
@@ -69,12 +70,12 @@ namespace ClasesAbstractas
                 this.nacionalidad = value;
             }
         }
-
         public string StringToDni
         {
             set
             {
-                this.dni = int.Parse(value);
+                this.dni = ValidarDni(this.nacionalidad, value);
+
             }
         }
 
@@ -112,48 +113,49 @@ namespace ClasesAbstractas
 
         protected int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
-            int retorno = -1;
+
             if (this.nacionalidad == ENacionalidad.Argentino && (dato >= 1 || dato <= 89999999))
             {
-                retorno = dato;
+                return dato;
             }
             else if (this.nacionalidad == ENacionalidad.Extranjero && (dato >= 90000000 || dato <= 99999999))
             {
-                retorno = dato;
+                return dato;
             }
             else
             {
                 throw new DniInvalidoException();
             }
-            return retorno;
         }
-
-    }
-
         protected int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
-            int retorno = -1;
-            if (this.nacionalidad == ENacionalidad.Argentino && (int.Parse(dato) >= 1 || int.Parse(dato) <= 89999999))
+
+            if (int.TryParse(dato, out int dni))
             {
-                retorno = 0;
+                return ValidarDni(nacionalidad, dni);
             }
-            else if (this.nacionalidad == ENacionalidad.Extranjero && (int.Parse(dato) >= 90000000 || int.Parse(dato) <= 99999999))
+            else
             {
-                retorno = 1;
-            }
-            else 
-            {                
                 throw new DniInvalidoException();
             }
-            return retorno;
-    }
+
+        }
 
         protected string ValidarNombreApellido(string dato)
         {
-
+            foreach (char item in dato)
+            {
+                if (!char.IsLetter(item) || char.IsWhiteSpace(item))
+                {
+                    return null;//preguntar por la propiedad o carga de datos cuando retorna null
+                }
+            }
+            return dato;
         }
+
 
 
 
     }
 }
+

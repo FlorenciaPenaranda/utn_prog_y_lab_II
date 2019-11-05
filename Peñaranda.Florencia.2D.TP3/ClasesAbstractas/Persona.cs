@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Excepciones;
+
 
 namespace ClasesAbstractas
 {
@@ -16,7 +18,7 @@ namespace ClasesAbstractas
         public enum ENacionalidad
         {
             Argentino,
-            extranjero
+            Extranjero
         }
 
 
@@ -110,13 +112,41 @@ namespace ClasesAbstractas
 
         protected int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
-           
+            int retorno = -1;
+            if (this.nacionalidad == ENacionalidad.Argentino && (dato >= 1 || dato <= 89999999))
+            {
+                retorno = dato;
+            }
+            else if (this.nacionalidad == ENacionalidad.Extranjero && (dato >= 90000000 || dato <= 99999999))
+            {
+                retorno = dato;
+            }
+            else
+            {
+                throw new DniInvalidoException();
+            }
+            return retorno;
         }
+
+    }
 
         protected int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
-
-        }
+            int retorno = -1;
+            if (this.nacionalidad == ENacionalidad.Argentino && (int.Parse(dato) >= 1 || int.Parse(dato) <= 89999999))
+            {
+                retorno = 0;
+            }
+            else if (this.nacionalidad == ENacionalidad.Extranjero && (int.Parse(dato) >= 90000000 || int.Parse(dato) <= 99999999))
+            {
+                retorno = 1;
+            }
+            else 
+            {                
+                throw new DniInvalidoException();
+            }
+            return retorno;
+    }
 
         protected string ValidarNombreApellido(string dato)
         {

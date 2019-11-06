@@ -107,7 +107,7 @@ namespace ClasesInstanciables
 
         public static Profesor operator ==(Universidad g, EClases clase)
         {
-            foreach(Jornada item in g.jornada)
+            foreach(Profesor profesor in g.profesores)
             {
                 if()
             }

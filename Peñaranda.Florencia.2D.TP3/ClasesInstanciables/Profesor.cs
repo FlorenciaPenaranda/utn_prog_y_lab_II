@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClasesInstanciables
 {
-    class Profesor
+    public class Profesor
     {
+        private Queue<Universidad.EClases> claseDelDia;
+        private Random random;
+
+
     }
 }

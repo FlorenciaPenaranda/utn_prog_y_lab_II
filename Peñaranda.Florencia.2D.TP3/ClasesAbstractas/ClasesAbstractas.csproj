@@ -45,7 +45,7 @@
     <Compile Include="Universitario.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\Excepciones.csproj">
+    <ProjectReference Include="..\Excepciones\Excepciones.csproj">
       <Project>{b77774a7-5e49-43bf-8a8b-433377927c4c}</Project>
       <Name>Excepciones</Name>
     </ProjectReference>

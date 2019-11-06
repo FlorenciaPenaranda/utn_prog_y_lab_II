@@ -8,7 +8,7 @@ namespace ClasesAbstractas
 {
     abstract class Universitario : Persona
     {
-        protected int legajo;
+        private int legajo;
 
         public Universitario() 
         {        
@@ -20,10 +20,26 @@ namespace ClasesAbstractas
             this.legajo = legajo;
         }
 
+        /// <summary>
+        /// Sobrescribe el metodo Equals 
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns>devuelve true si el objeto es del tipo Universitario o false si no lo es.</returns>
         public override bool Equals(object obj)
         {
-            return base.Equals(obj); // PREGUNTAR
+            if (obj is Universitario)
+            {
+                return this == (Universitario)obj;
+            }
+
+            return false;
         }
+
+        public override int GetHashCode()
+        {
+            return legajo;
+        }
+
         protected virtual string MostrarDatos() 
         {
             StringBuilder sb = new StringBuilder();

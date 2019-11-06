@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClasesInstanciables
 {
-    class Jornada
+    public class Jornada
     {
+        private List<Alumno> alumnos;
+        private Universidad.EClases clases;
+        private Profesor instructor;
+
     }
 }

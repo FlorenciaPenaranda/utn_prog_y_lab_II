@@ -105,19 +105,22 @@ namespace ClasesInstanciables
             return !(g == i);
         }
 
-        public static Profesor operator ==(Universidad g, EClases clase)
-        {
-            foreach(Profesor profesor in g.profesores)
-            {
-                if()
-            }
-            return ;
-        }
+        //public static Profesor operator ==(Universidad g, EClases clase)
+        //{
+        //    foreach (Profesor item in g.profesores)
+        //    {
+        //        if (item) 
+        //        {
+                
+        //        }
+        //    }
+        //    return;
+        //}
 
-        public static Profesor operator ==(Universidad g, EClases clase)
-        {            
-            return !(g == clase);
-        }
+        //public static Profesor operator !=(Universidad g, EClases clase)
+        //{
+        //    return !(g == clase);
+        //}
 
 
 

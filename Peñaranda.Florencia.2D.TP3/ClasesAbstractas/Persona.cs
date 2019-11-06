@@ -8,7 +8,7 @@ using Excepciones;
 
 namespace ClasesAbstractas
 {
-    abstract class Persona
+    public abstract class Persona
     {
         private string nombre;
         private string apellido;
@@ -114,11 +114,11 @@ namespace ClasesAbstractas
         protected int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
 
-            if (this.nacionalidad == ENacionalidad.Argentino && (dato >= 1 || dato <= 89999999))
+            if (this.nacionalidad == ENacionalidad.Argentino && (dato >= 1 || dato <= 89999999) && (dato.ToString().Length == 7 || dato.ToString().Length == 8))
             {
                 return dato;
             }
-            else if (this.nacionalidad == ENacionalidad.Extranjero && (dato >= 90000000 || dato <= 99999999))
+            else if (this.nacionalidad == ENacionalidad.Extranjero && (dato >= 90000000 || dato <= 99999999) && (dato.ToString().Length == 7 || dato.ToString().Length == 8))
             {
                 return dato;
             }
@@ -145,9 +145,9 @@ namespace ClasesAbstractas
         {
             foreach (char item in dato)
             {
-                if (!char.IsLetter(item) || char.IsWhiteSpace(item))
+                if (!char.IsLetter(item))
                 {
-                    return null;//preguntar por la propiedad o carga de datos cuando retorna null
+                    return null;
                 }
             }
             return dato;

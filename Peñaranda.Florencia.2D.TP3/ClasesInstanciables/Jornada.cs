@@ -12,5 +12,23 @@ namespace ClasesInstanciables
         private Universidad.EClases clases;
         private Profesor instructor;
 
+//        public List<Alumno> Alumnos;
+//        {
+//            get { return myVar; }
+//            set { myVar = value; }
+//        }
+
+//        public Universidad.EClases Clases;
+//        {
+//            get { return myVar; }
+//            set { myVar = value; }
+//        }
+
+//        public Profesor Instructor
+//{
+//            get { return myVar; }
+//            set { myVar = value; }
+//        }
+
     }
 }

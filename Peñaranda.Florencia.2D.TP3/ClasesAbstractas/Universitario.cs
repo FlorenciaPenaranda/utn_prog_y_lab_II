@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace ClasesAbstractas
 {
-    abstract class Universitario : Persona
+    public abstract class Universitario : Persona
     {
         private int legajo;
 
         public Universitario() 
+            :base()
         {        
         }
 
-        public Universitario(string nombre, string apellido, int dni, ENacionalidad nacionalidad, int legajo)
+        public Universitario(int legajo, string nombre, string apellido, string dni, ENacionalidad nacionalidad)
             :base(nombre, apellido,  dni, nacionalidad)
         {
             this.legajo = legajo;

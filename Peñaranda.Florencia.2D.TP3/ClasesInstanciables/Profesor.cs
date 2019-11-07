@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ClasesAbstractas;
+using System.Threading;
+
 
 namespace ClasesInstanciables
 {
@@ -19,19 +21,21 @@ namespace ClasesInstanciables
         public Profesor()
             : base()
         {
-            this.claseDelDia = new Queue<Universidad.EClases>();
             
         }
 
         public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad)
             :base(id, nombre, apellido, dni, nacionalidad)
         {
-
+            this.claseDelDia = new Queue<Universidad.EClases>();
+            _randomClases();
+            _randomClases();
         }
 
-        static void RandomClases() 
+        private void _randomClases() 
         {
-            
+            this.claseDelDia.Enqueue((Universidad.EClases)random.Next(0, 3));
+            Thread.Sleep(300);
         }
 
         protected override string ParticipaEnClase()
@@ -52,6 +56,22 @@ namespace ClasesInstanciables
             return this.MostrarDatos();
         }
 
+        public static bool operator ==(Profesor i, Universidad.EClases clase)
+        {
+            foreach (Universidad.EClases item in i.claseDelDia)
+            {
+                if (item == clase) 
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static bool operator !=(Profesor i, Universidad.EClases clase)
+        {
+            return !(i == clase);
+        }
 
     }
 }

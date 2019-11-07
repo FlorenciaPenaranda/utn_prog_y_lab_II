@@ -37,18 +37,18 @@ namespace ClasesInstanciables
             this.estadoCuenta = estadoCuenta;
         }
 
-        //public static bool operator ==(Alumno a, Universidad.EClases clase) 
-        //{
-        //    foreach (Universidad item in ) 
-        //    {
-        //        if()
-        //    }   
-        //}
+        public static bool operator ==(Alumno a, Universidad.EClases clase)
+        {
+            foreach (Universidad.EClases item in a.claseQueToma)
+            {
+                if (a.claseQueToma)
+            }
+        }
 
-        //public static bool operator !=(Alumno a, Universidad.EClases clase)
-        //{
-        //    return !(a == clase);
-        //}
+        public static bool operator !=(Alumno a, Universidad.EClases clase)
+        {
+            return !(a == clase);
+        }
 
         protected override string MostrarDatos() 
         {

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClasesAbstractas;
+using EntidadesAbstractas;
+
+
 
 
 namespace ClasesInstanciables
@@ -12,37 +14,30 @@ namespace ClasesInstanciables
     {
         private Universidad.EClases claseQueToma;
         private EEstadoCuenta estadoCuenta;
-
         public enum EEstadoCuenta
         {
-            Aldia,
-            Deudor,
-            Becado
+            AlDia, Deudor, Becado
         }
 
-        public Alumno()
-            : base()
+        public Alumno() : base()
         {
         }
-
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma)
-            : base(id, nombre, apellido, dni, nacionalidad)
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma) : base(id, nombre, apellido, dni, nacionalidad)
         {
             this.claseQueToma = claseQueToma;
         }
-
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma, EEstadoCuenta estadoCuenta)
-            : base(id, nombre, apellido, dni, nacionalidad)
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma, EEstadoCuenta estadoCuenta) : this(id, nombre, apellido, dni, nacionalidad, claseQueToma)
         {
             this.estadoCuenta = estadoCuenta;
         }
 
         public static bool operator ==(Alumno a, Universidad.EClases clase)
         {
-            foreach (Universidad.EClases item in a.claseQueToma)
+            if (a.claseQueToma == clase && a.estadoCuenta != EEstadoCuenta.Deudor)
             {
-                if (a.claseQueToma)
+                return true;
             }
+            return false;
         }
 
         public static bool operator !=(Alumno a, Universidad.EClases clase)
@@ -50,18 +45,32 @@ namespace ClasesInstanciables
             return !(a == clase);
         }
 
-        protected override string MostrarDatos() 
+
+        protected override string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.MostrarDatos());
+            string auxiliar = "";
+            switch (this.estadoCuenta)
+            {
+                case EEstadoCuenta.AlDia:
+                    auxiliar = "Cuota al día";
+                    break;
+                case EEstadoCuenta.Becado:
+                    auxiliar = "Becado";
+                    break;
+                case EEstadoCuenta.Deudor:
+                    auxiliar = "Deudor";
+                    break;
+            }
+            sb.AppendLine("ESTADO DE CUENTA: " + auxiliar);
             sb.AppendLine(this.ParticipaEnClase());
-            sb.AppendLine("Estado de cuenta: " + this.estadoCuenta);
             return sb.ToString();
         }
 
         public override string ToString()
         {
-            return base.MostrarDatos();
+            return this.MostrarDatos();
         }
 
         protected override string ParticipaEnClase()
@@ -69,4 +78,5 @@ namespace ClasesInstanciables
             return String.Format($"TOMA CLASE DE: {this.claseQueToma}");
         }
     }
+
 }

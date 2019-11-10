@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Archivos;
+using Excepciones;
+
 
 namespace ClasesInstanciables
 {
     public class Universidad
     {
         private List<Alumno> alumnos;
-        private List<Jornada> jornada;
+        private List<Jornada> jornadas;
         private List<Profesor> profesores;
 
         public enum EClases
@@ -20,77 +23,84 @@ namespace ClasesInstanciables
             SPD
         }
 
-
         public List<Alumno> Alumnos
         {
             get
             {
-                return this.alumnos;
+                return alumnos;
             }
             set
             {
-                this.alumnos = value;
+                alumnos = value;
             }
         }
-
         public List<Profesor> Instructores
         {
             get
             {
-                return this.profesores;
+                return profesores;
             }
             set
             {
-                this.profesores = value;
+                profesores = value;
             }
         }
-
-        public List<Jornada> Jornada
+        public List<Jornada> Jornadas
         {
             get
             {
-                return this.jornada;
+                return jornadas;
             }
             set
             {
-                this.jornada = value;
+                jornadas = value;
             }
         }
-
-        //public Jornada this[int i]
-        //{
-        //    get { return myVar; }
-        //    set { myVar = value; }
-        //}
+        public Jornada this[int i]
+        {
+            get
+            {
+                return jornadas[i];
+            }
+            set
+            {
+                jornadas[i] = value;
+            }
+        }
 
         public Universidad()
         {
             this.alumnos = new List<Alumno>();
-            this.jornada = new List<Jornada>();
             this.profesores = new List<Profesor>();
+            this.jornadas = new List<Jornada>();
         }
 
-        public static bool operator ==(Universidad g, Alumno a) 
+        public static Profesor operator ==(Universidad u, EClases clase)
         {
-            foreach (Alumno item in g.alumnos)
+            foreach (Profesor item in u.profesores)
             {
-                if (item == a)
+                if (item == clase)
                 {
-                    return true;
+                    return item;
                 }
 
             }
-            return false;
+            throw new SinProfesorException();
         }
-
-        public static bool operator !=(Universidad g, Alumno a)
+        public static Profesor operator !=(Universidad u, EClases clase)
         {
-            return !(g == a);
+            foreach (Profesor item in u.profesores)
+            {
+                if (item != clase)
+                {
+                    return item;
+                }
+            }
+            throw new SinProfesorException();
         }
-
-        public static bool operator ==(Universidad g, Profesor i)
+        public static bool operator ==(Universidad u, Profesor i)
         {
-            foreach (Profesor item in g.profesores)
+            foreach (Profesor item in u.Instructores)
             {
                 if (item == i)
                 {
@@ -99,32 +109,96 @@ namespace ClasesInstanciables
             }
             return false;
         }
-
-        public static bool operator !=(Universidad g, Profesor i)
+        public static bool operator !=(Universidad u, Profesor i)
         {
-            return !(g == i);
+            return !(u == i);
         }
 
-        //public static Profesor operator ==(Universidad g, EClases clase)
-        //{
-        //    foreach (Profesor item in g.profesores)
-        //    {
-        //        if (item) 
-        //        {
-                
-        //        }
-        //    }
-        //    return;
-        //}
+        public static bool operator ==(Universidad u, Alumno a)
+        {
+            foreach (Alumno item in u.Alumnos)
+            {
+                if (item == a)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+        public static bool operator !=(Universidad u, Alumno a)
+        {
+            return !(u == a);
+        }
 
-        //public static Profesor operator !=(Universidad g, EClases clase)
-        //{
-        //    return !(g == clase);
-        //}
+        public static Universidad operator +(Universidad u, EClases clase)
+        {
+            Jornada j = new Jornada(clase, (u == clase));
+            foreach (Alumno a in u.Alumnos)
+            {
+                if (a == clase)
+                {
+                    j.Alumnos.Add(a);
+                }
+            }
+            u.jornadas.Add(j);
+            return u;
+        }
+        public static Universidad operator +(Universidad u, Alumno a)
+        {
+            if (u != a)
+            {
+                u.Alumnos.Add(a);
+            }
+            else
+            {
+                throw new AlumnoRepetidoException();
+            }
 
+            return u;
+        }
+        public static Universidad operator +(Universidad u, Profesor i)
+        {
 
+            if (u != i)
+            {
+                u.Instructores.Add(i);
+            }
 
+            return u;
+        }
 
+        public static bool Guardar(Universidad uni)
+        {
+            bool retorno = false;
+            if (!(uni is null))
+            {
+                Xml<Universidad> aux = new Xml<Universidad>();
+                retorno = aux.Guardar(AppDomain.CurrentDomain.BaseDirectory + "Universidad.xml", uni);
+            }
+            return retorno;
+        }
+        public Universidad Leer()
+        {
+            Universidad retorno = null;
+            Xml<Universidad> lector = new Xml<Universidad>();
+            lector.Leer(AppDomain.CurrentDomain.BaseDirectory + "Universidad.txt", out retorno);
+            return retorno;
+        }
 
+        private static string MostrarDatos(Universidad uni)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("JORNADA: ");
+            foreach (Jornada item in uni.jornadas)
+            {
+                sb.Append(item.ToString());
+                sb.AppendLine("<------------------------------------------------------->");
+            }
+            return sb.ToString();
+        }
+        public override string ToString()
+        {
+            return MostrarDatos(this);
+        }
     }
 }

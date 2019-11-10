@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClasesAbstractas;
+using EntidadesAbstractas;
 using System.Threading;
 
 
@@ -40,7 +40,13 @@ namespace ClasesInstanciables
 
         protected override string ParticipaEnClase()
         {
-            return string.Format($"CLASE DEL DIA {this.claseDelDia}");
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("CLASES DEL DIA: ");
+            foreach (Universidad.EClases item in this.claseDelDia)
+            {
+                sb.AppendLine(item.ToString());                    
+            }
+            return sb.ToString();
         }
 
         protected override string MostrarDatos()

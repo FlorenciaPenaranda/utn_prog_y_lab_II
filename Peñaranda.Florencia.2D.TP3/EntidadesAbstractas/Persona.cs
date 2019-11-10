@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Excepciones;
 
 
-namespace ClasesAbstractas
+namespace EntidadesAbstractas
 {
     public abstract class Persona
     {
@@ -28,10 +28,11 @@ namespace ClasesAbstractas
             }
             set
             {
-                if (ValidarNombreApellido(value) != null)
-                {
-                    this.nombre = value;
-                }
+                this.nombre = ValidarNombreApellido(value);
+                //if (ValidarNombreApellido(value) != null)
+                //{
+                //    this.nombre = value;
+                //}
             }
         }
         public string Apellido
@@ -42,10 +43,11 @@ namespace ClasesAbstractas
             }
             set
             {
-                if (ValidarNombreApellido(value) != null)
-                {
-                    this.apellido = value;
-                }
+                this.apellido = ValidarNombreApellido(value);
+                //if (ValidarNombreApellido(value) != null)
+                //{
+                //    this.apellido = value;
+                //}
             }
         }
         public int Dni
@@ -84,10 +86,11 @@ namespace ClasesAbstractas
 
         }
         public Persona(string nombre, string apellido, ENacionalidad nacionalidad)
+            : this()
         {
-            this.nombre = nombre;
-            this.apellido = apellido;
-            this.nacionalidad = nacionalidad;
+            this.Nombre = nombre;
+            this.Apellido = apellido;
+            this.Nacionalidad = nacionalidad;
         }
         public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad)
             : this(nombre, apellido, nacionalidad)
@@ -104,16 +107,14 @@ namespace ClasesAbstractas
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Nombre: " + this.Nombre);
-            sb.AppendLine("Apellido: " + this.Apellido);
-            sb.AppendLine("Dni: " + this.Dni);
-            sb.AppendLine("Nacionalidad: " + this.Nacionalidad);
+            sb.AppendLine("NOMBRE COMPLETO: " + this.Apellido + "," + this.Nombre);
+            //sb.AppendLine("Dni: " + this.Dni);
+            sb.AppendLine("NACIONALIDAD: " + this.Nacionalidad);
             return sb.ToString();
         }
 
         protected int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
-
             if (this.nacionalidad == ENacionalidad.Argentino && (dato >= 1 || dato <= 89999999) && (dato.ToString().Length == 7 || dato.ToString().Length == 8))
             {
                 return dato;
@@ -124,7 +125,7 @@ namespace ClasesAbstractas
             }
             else
             {
-                throw new DniInvalidoException();
+                throw new NacionalidadInvalidaException();
             }
         }
         protected int ValidarDni(ENacionalidad nacionalidad, string dato)
@@ -136,7 +137,7 @@ namespace ClasesAbstractas
             }
             else
             {
-                throw new DniInvalidoException();
+                throw new DniInvalidoException(); 
             }
 
         }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClasesAbstractas
+namespace EntidadesAbstractas
 {
     public abstract class Universitario : Persona
     {
@@ -21,11 +21,6 @@ namespace ClasesAbstractas
             this.legajo = legajo;
         }
 
-        /// <summary>
-        /// Sobrescribe el metodo Equals 
-        /// </summary>
-        /// <param name="obj"></param>
-        /// <returns>devuelve true si el objeto es del tipo Universitario o false si no lo es.</returns>
         public override bool Equals(object obj)
         {
             if (obj is Universitario)
@@ -45,7 +40,7 @@ namespace ClasesAbstractas
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.ToString());
-            sb.AppendLine("Legajo: " + this.legajo);
+            sb.AppendLine("LEGAJO NUMERO: " + this.legajo);
             return sb.ToString();
         }
 

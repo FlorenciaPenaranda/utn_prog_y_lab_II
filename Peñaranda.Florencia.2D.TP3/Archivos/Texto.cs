@@ -21,9 +21,9 @@ namespace Archivos
                     file.Close();
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw new ArchivosException();
+                throw new ArchivosException(e);
             }
             return true;
         }
@@ -38,9 +38,9 @@ namespace Archivos
                     file.Close();
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw new ArchivosException();
+                throw new ArchivosException(e);
 
             }
             return true;

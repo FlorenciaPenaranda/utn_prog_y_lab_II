@@ -8,5 +8,18 @@ namespace Excepciones
 {
     public class NacionalidadInvalidaException : Exception
     {
+       // private const string mensajeError = "La nacionalidad no se condice con el número DNI";
+
+        public NacionalidadInvalidaException()
+            : this("La nacionalidad no se condice con el número DNI")
+        {
+
+        }
+
+        public NacionalidadInvalidaException(string mensaje)
+            : base(mensaje)
+        {
+
+        }
     }
 }

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{A8E65111-249A-4A0F-884A-9C480BE2BCCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archivos.csproj", "{00DA85B1-2DCC-4530-9D32-20996EA610B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VistaPatentes", "VistaPatentes\VistaPatentes.csproj", "{25725883-BE90-47AA-B01C-B213EC1EF8D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8E65111-249A-4A0F-884A-9C480BE2BCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E65111-249A-4A0F-884A-9C480BE2BCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E65111-249A-4A0F-884A-9C480BE2BCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E65111-249A-4A0F-884A-9C480BE2BCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DA85B1-2DCC-4530-9D32-20996EA610B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DA85B1-2DCC-4530-9D32-20996EA610B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DA85B1-2DCC-4530-9D32-20996EA610B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DA85B1-2DCC-4530-9D32-20996EA610B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25725883-BE90-47AA-B01C-B213EC1EF8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25725883-BE90-47AA-B01C-B213EC1EF8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25725883-BE90-47AA-B01C-B213EC1EF8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25725883-BE90-47AA-B01C-B213EC1EF8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77C3E701-C695-47EB-8376-2AE08F54672E}
+	EndGlobalSection
+EndGlobal

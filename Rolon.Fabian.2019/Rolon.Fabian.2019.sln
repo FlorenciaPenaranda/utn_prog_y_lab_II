@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{9FA43ADC-2E34-483E-849E-A76A36E55339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormSistemaSolar", "FormSistemaSolar\FormSistemaSolar.csproj", "{926C5333-317A-4A5E-BEEF-D0A29B35114A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FA43ADC-2E34-483E-849E-A76A36E55339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA43ADC-2E34-483E-849E-A76A36E55339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA43ADC-2E34-483E-849E-A76A36E55339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA43ADC-2E34-483E-849E-A76A36E55339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926C5333-317A-4A5E-BEEF-D0A29B35114A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926C5333-317A-4A5E-BEEF-D0A29B35114A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926C5333-317A-4A5E-BEEF-D0A29B35114A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926C5333-317A-4A5E-BEEF-D0A29B35114A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E08F61BA-EC3D-4AE2-8177-AA7EF469D39A}
+	EndGlobalSection
+EndGlobal

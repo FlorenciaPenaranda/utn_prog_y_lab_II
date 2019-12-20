@@ -1,0 +1,13 @@
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\bin\Debug\Entidades.dll
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\bin\Debug\Entidades.pdb
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\obj\Debug\FormVistaFactura.csprojAssemblyReference.cache
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\obj\Debug\FormVistaFactura.csproj.GenerateResource.cache
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\obj\Debug\FormVistaFactura.csproj.CoreCompileInputs.cache
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\obj\Debug\FormVistaFactura.csproj.CopyComplete
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

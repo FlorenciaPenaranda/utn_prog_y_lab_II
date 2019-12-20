@@ -1,0 +1,6 @@
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\Entidades\bin\Debug\Entidades.dll
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\Entidades\bin\Debug\Entidades.pdb
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.dll
+D:\FlorGit\Peñaranda.Florencia.2D.RPP\Peñaranda.Florencia.2D\Entidades\obj\Debug\Entidades.pdb
